@@ -1,0 +1,4 @@
+EMAIL_SUPAERO = "Prenom.NOM@student.isae-supaero.fr"
+MDP_SUPAERO = "motdepasse12!"
+SERVER_SMTPS = "smtps.isae.fr"
+PORT_SMTPS = 465 
