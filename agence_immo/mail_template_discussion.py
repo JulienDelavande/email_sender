@@ -1,6 +1,6 @@
-def mail_template_discussion(sender_name, sender_first_name, sender_tel, sender_linkedin):
+def mail_template_discussion(sender_name, sender_first_name, sender_tel, sender_linkedin, i=0):
 
-    object = "Invitation pour une discussion au sujet de l’IA pour l’immobilier."
+    object = f"Invitation pour une discussion au sujet de l’IA pour l’immobilier."
     subject =  f"""
     Bonjour Madame, Monsieur,
 

@@ -60,8 +60,10 @@ destinataires = df["email"].tolist()
 
 # Sujet et corps de l'email
 path = "./agence_immo/mail_template_discussion.py"
+
 sujet, corps = mail_template_discussion(nom, prenom, tel, linkedin)
 
 # Envoi des emails
 for destinataire in destinataires:
     envoyer_email(destinataire, sujet, corps)
+        
